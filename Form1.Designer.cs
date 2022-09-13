@@ -51,19 +51,18 @@
             // OutputDeviceList
             // 
             this.OutputDeviceList.FormattingEnabled = true;
-            this.OutputDeviceList.Location = new System.Drawing.Point(9, 24);
-            this.OutputDeviceList.Margin = new System.Windows.Forms.Padding(2);
+            this.OutputDeviceList.Location = new System.Drawing.Point(12, 30);
+            this.OutputDeviceList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OutputDeviceList.Name = "OutputDeviceList";
-            this.OutputDeviceList.Size = new System.Drawing.Size(257, 20);
+            this.OutputDeviceList.Size = new System.Drawing.Size(341, 23);
             this.OutputDeviceList.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(9, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 12);
+            this.label2.Size = new System.Drawing.Size(90, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "音频输出至:";
             // 
@@ -72,10 +71,10 @@
             this.isRandom.AutoSize = true;
             this.isRandom.Checked = true;
             this.isRandom.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.isRandom.Location = new System.Drawing.Point(198, 6);
-            this.isRandom.Margin = new System.Windows.Forms.Padding(2);
+            this.isRandom.Location = new System.Drawing.Point(264, 8);
+            this.isRandom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.isRandom.Name = "isRandom";
-            this.isRandom.Size = new System.Drawing.Size(72, 16);
+            this.isRandom.Size = new System.Drawing.Size(89, 19);
             this.isRandom.TabIndex = 4;
             this.isRandom.Text = "随机播放";
             this.isRandom.UseVisualStyleBackColor = true;
@@ -84,10 +83,10 @@
             // 
             this.PlayMusic.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PlayMusic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.PlayMusic.Location = new System.Drawing.Point(141, 46);
-            this.PlayMusic.Margin = new System.Windows.Forms.Padding(2);
+            this.PlayMusic.Location = new System.Drawing.Point(188, 58);
+            this.PlayMusic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PlayMusic.Name = "PlayMusic";
-            this.PlayMusic.Size = new System.Drawing.Size(57, 22);
+            this.PlayMusic.Size = new System.Drawing.Size(76, 28);
             this.PlayMusic.TabIndex = 6;
             this.PlayMusic.Text = "▶️播放";
             this.PlayMusic.UseVisualStyleBackColor = true;
@@ -98,10 +97,10 @@
             // 
             this.StopMusic.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.StopMusic.ForeColor = System.Drawing.Color.Red;
-            this.StopMusic.Location = new System.Drawing.Point(207, 46);
-            this.StopMusic.Margin = new System.Windows.Forms.Padding(2);
+            this.StopMusic.Location = new System.Drawing.Point(276, 58);
+            this.StopMusic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.StopMusic.Name = "StopMusic";
-            this.StopMusic.Size = new System.Drawing.Size(59, 22);
+            this.StopMusic.Size = new System.Drawing.Size(79, 28);
             this.StopMusic.TabIndex = 7;
             this.StopMusic.Text = "■停止";
             this.StopMusic.UseVisualStyleBackColor = true;
@@ -111,34 +110,37 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 51);
+            this.label3.Location = new System.Drawing.Point(9, 64);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 10;
             this.label3.Text = "播放列表";
             // 
             // PlaybackProgress
             // 
-            this.PlaybackProgress.Location = new System.Drawing.Point(9, 186);
+            this.PlaybackProgress.Location = new System.Drawing.Point(12, 232);
+            this.PlaybackProgress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlaybackProgress.Name = "PlaybackProgress";
-            this.PlaybackProgress.Size = new System.Drawing.Size(176, 12);
+            this.PlaybackProgress.Size = new System.Drawing.Size(235, 15);
             this.PlaybackProgress.TabIndex = 1;
             // 
             // AudioStaus
             // 
             this.AudioStaus.AutoSize = true;
-            this.AudioStaus.Location = new System.Drawing.Point(193, 186);
+            this.AudioStaus.Location = new System.Drawing.Point(257, 232);
+            this.AudioStaus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AudioStaus.Name = "AudioStaus";
-            this.AudioStaus.Size = new System.Drawing.Size(71, 12);
+            this.AudioStaus.Size = new System.Drawing.Size(95, 15);
             this.AudioStaus.TabIndex = 12;
             this.AudioStaus.Text = "00:00/00:00";
             // 
             // ScanDir
             // 
-            this.ScanDir.Location = new System.Drawing.Point(68, 46);
-            this.ScanDir.Margin = new System.Windows.Forms.Padding(2);
+            this.ScanDir.Location = new System.Drawing.Point(91, 58);
+            this.ScanDir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ScanDir.Name = "ScanDir";
-            this.ScanDir.Size = new System.Drawing.Size(64, 21);
+            this.ScanDir.Size = new System.Drawing.Size(85, 26);
             this.ScanDir.TabIndex = 13;
             this.ScanDir.Text = "扫描目录";
             this.ScanDir.UseVisualStyleBackColor = true;
@@ -147,41 +149,40 @@
             // FileList
             // 
             this.FileList.FormattingEnabled = true;
-            this.FileList.ItemHeight = 12;
-            this.FileList.Location = new System.Drawing.Point(9, 70);
-            this.FileList.Margin = new System.Windows.Forms.Padding(2);
+            this.FileList.ItemHeight = 15;
+            this.FileList.Location = new System.Drawing.Point(12, 88);
+            this.FileList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FileList.Name = "FileList";
-            this.FileList.Size = new System.Drawing.Size(257, 112);
+            this.FileList.Size = new System.Drawing.Size(341, 139);
             this.FileList.TabIndex = 14;
             this.FileList.SelectedIndexChanged += new System.EventHandler(this.FileList_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(275, 66);
+            this.label1.Location = new System.Drawing.Point(367, 82);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 12);
+            this.label1.Size = new System.Drawing.Size(0, 15);
             this.label1.TabIndex = 16;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(106, 3);
+            this.button1.Location = new System.Drawing.Point(141, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 20);
+            this.button1.Size = new System.Drawing.Size(109, 25);
             this.button1.TabIndex = 17;
             this.button1.Text = "关于 && 帮助";
             this.button1.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
-=======
->>>>>>> ae22585e39c640574190b30abecde9d83e543ce8
             // 
             // 轻音
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(274, 202);
+            this.ClientSize = new System.Drawing.Size(365, 252);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.FileList);
@@ -197,7 +198,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "轻音";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
