@@ -25,10 +25,10 @@
 <kbd>Alt</kbd> + <kbd>减号键(-)</kbd>
 
 ### 开发灵感
-在BilBil上看到一篇视频即在瓦洛兰特游戏中播放CSGO胜利音乐盒(BV1UG4y1a7wR)，想着能不能整个放Apex音效的活。在看完使用教程后发现需要花钱且无太大必要，因此想着自己开发一款类似软件试试。本软件使用C# 语言开发，项目用时1天，也是第一次尝试开发项目，属于是边学习边开发了。
+在BiliBili上看到一篇视频即在瓦洛兰特游戏中播放CSGO胜利音乐盒(BV1UG4y1a7wR)，想着能不能整个放Apex音效的活。在看完使用教程后发现需要花钱且无太大必要，因此想着自己开发一款类似软件试试。本软件使用C# 语言开发，项目用时1天，也是第一次尝试开发项目，属于是边学习边开发了。
 
 ### 鸣谢
-[BilBil-在VALORANT中放csgo的mvp音乐折磨队友](https://www.bilibili.com/video/BV1UG4y1a7wR)
+[BiliBili-在VALORANT中放csgo的mvp音乐折磨队友](https://www.bilibili.com/video/BV1UG4y1a7wR)
 
 [Naudio库](https://github.com/naudio/NAudio)
 
