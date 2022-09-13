@@ -269,10 +269,5 @@ namespace KeyMusic
         {
             toolTip2.SetToolTip(StopMusic, "快捷键:Alt键+减号键");
         }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Process.Start("https://github.com/doupoa/Voice-Pack-Player");
-        }
     }
 }

@@ -171,7 +171,10 @@
             this.button1.TabIndex = 17;
             this.button1.Text = "关于 && 帮助";
             this.button1.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
+=======
+>>>>>>> ae22585e39c640574190b30abecde9d83e543ce8
             // 
             // 轻音
             // 
