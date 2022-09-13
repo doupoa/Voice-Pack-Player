@@ -29,5 +29,7 @@
 
 ### 鸣谢
 [BilBil-在VALORANT中放csgo的mvp音乐折磨队友](https://www.bilibili.com/video/BV1UG4y1a7wR)
+
 [Naudio库](https://github.com/naudio/NAudio)
+
 [VB-Audio Software](https://vb-audio.com/Cable/)
